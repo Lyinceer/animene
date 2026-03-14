@@ -1,6 +1,18 @@
 import { createTheme } from "@mui/material/styles"
 import { CARD_TYPES } from "../utils/constants"
 const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#1976d2', // Change hex code for the primary brand color
+    },
+    secondary: {
+      main: '#dc004e', // Change hex code for secondary accents
+    },
+    background: {
+      default: '#f5f5f5', // Changes the global background color
+        paper: '#ffffff',   // Changes the color of cards and containers
+    },
+  },
   breakpoints: {
     values: {
       xs: 0,
